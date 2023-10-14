@@ -1,0 +1,5 @@
+sample2.txt
+\tThe
+\tquick
+\tbrown
+\tfox

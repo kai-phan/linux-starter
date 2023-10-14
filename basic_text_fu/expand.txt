@@ -1,0 +1,3 @@
+Name\tAge\tCity
+John\t25\tNew York
+Alice\t30\tSan Francisco

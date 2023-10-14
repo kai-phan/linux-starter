@@ -1,0 +1,6 @@
+README.md
+basic_command
+basic_command_lines.md
+basic_text_fu
+basic_text_fu.md
+rm

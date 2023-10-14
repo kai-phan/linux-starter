@@ -111,13 +111,13 @@ $ touch <file>
 => touch can modify the timestamp of a file.
 
 ## File
-The file is a command line tool to display the type of a file. It is part of the GNU Coreutils package and is implemented by calling the function stat(2).
+The file is a command line tool to display the type of file. It is part of the GNU Coreutils package and is implemented by calling the function stat(2).
 ``` bash
 $ file <file>
 ```
 
 ```bash
-$ file test/target/parent/children/abc.txt
+$ file basic_command/target/parent/children/abc.txt
 ```
 
 ## Read file
@@ -128,7 +128,7 @@ $ cat <file>
 
 => cat can read multiple files.
 ```bash
-$ cat test/target/parent/children/abc.txt test/target/parent/children/abc.json
+$ cat basic_command/target/parent/children/abc.txt basic_command/target/parent/children/abc.json
 ```
 
 ## Read file with line number
@@ -140,19 +140,19 @@ $ nl <file>
 ## Read file with line number and tab
 The read file with line number and tab is a command line tool to read a file with line number and tab. It is part of the GNU Coreutils package and is implemented by calling the function open(2).
 ``` bash
-$ nl -s "	" test/target/parent/children/abc.json
+$ nl -s "	" basic_command/target/parent/children/abc.json
 ```
 
 ## Read file with line number and tab and header
 The read file with line number and tab and header is a command line tool to read a file with line number and tab and header. It is part of the GNU Coreutils package and is implemented by calling the function open(2).
 ``` bash
-$ nl -s "	" -b a test/target/parent/children/abc.json
+$ nl -s "	" -b a basic_command/target/parent/children/abc.json
 ```
 
 ## Read file with line number and tab and header and footer
 The read file with line number and tab and header and footer is a command line tool to read a file with line number and tab and header and footer. It is part of the GNU Coreutils package and is implemented by calling the function open(2).
 ``` bash
-$ nl -s "	" -b a -f test/target/parent/children/abc.json
+$ nl -s "	" -b a -f basic_command/target/parent/children/abc.json
 ```
 
 ## Copy 
@@ -163,12 +163,12 @@ $ cp [-i | -f | -r] <source> <destination>
 Can use wildcards.
 
 ``` bash
-$ cp test/target/parent/children/*.txt test/result
+$ cp basic_command/target/parent/children/*.txt basic_command/result
 ```
 
 Recursive copy
 ``` bash
-$ cp -ri test/target/parent/children test/result
+$ cp -ri basic_command/target/parent/children basic_command/result
 ```
 
 - i : interactive
@@ -188,17 +188,17 @@ $ mv [-i | -f | -u | -b] <source> <destination>
 
 => Can update a file with a newer version.
 ``` bash
-$ mv test/target/parent/children/abc.txt test/target/parent/children/abcd.txt
+$ mv basic_command/target/parent/children/abc.txt basic_command/target/parent/children/abcd.txt
 ```
 
 => Can move multiple files.
 ``` bash
-$ mv -i test/target/parent/children/move.t test/result/children
+$ mv -i basic_command/target/parent/children/move.t basic_command/result/children
 ```
 
 => Can use wildcards.
 ``` bash
-$ mv -i test/target/parent/children/*.txt test/result/children
+$ mv -i basic_command/target/parent/children/*.txt basic_command/result/children
 ```
 
 ## Make directory
@@ -219,7 +219,7 @@ $ rm [-i | -f | -r] <file>
 
 => Can use wildcards.
 ``` bash
-$ rm -i test/result/children/*.txt
+$ rm -i basic_command/result/children/*.txt
 ```
 
 ## Remove directory
