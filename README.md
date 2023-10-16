@@ -9,3 +9,7 @@ See [Basic Text-Fu](https://github.com/kai-phan/linux-starter/blob/main/basic_te
 
 ### Basic Vim
 See [Basic Vim](https://github.com/kai-phan/linux-starter/blob/main/vim.md)
+
+## Networking Nomad
+### Network sharing
+See [Network sharing](https://github.com/kai-phan/linux-starter/blob/main/network_sharing.md)
