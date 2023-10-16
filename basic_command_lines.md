@@ -236,3 +236,8 @@ $ find <dir> [-name | -type | -size | -empty | -perm | -user | -group | -mtime |
 
 - name : name
 - type : type (d: directory, f: file, l: link)
+
+Find and list all js file in current folder
+``` bash
+$ find . -type f -name *.js -exec ls -l {} \;
+```
